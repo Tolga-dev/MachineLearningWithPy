@@ -10,7 +10,6 @@ to do list
 
 
 
-
 ## Road Map
 - read Hands on machine learning with scikit learn  keras and tensorflow book
 
