@@ -1,0 +1,10 @@
+venv
+.idea
+tmp
+datasets
+images
+*lib
+lib
+MachineLearning/data
+MachineLearning/*data
+
