@@ -7,4 +7,5 @@ images
 lib
 MachineLearning/data
 MachineLearning/*data
-
+*__pycache__
+models
