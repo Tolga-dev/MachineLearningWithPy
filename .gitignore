@@ -1,6 +1,5 @@
 venv
 .idea
-tmp
 datasets
 images
 *lib
