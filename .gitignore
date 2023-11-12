@@ -8,3 +8,5 @@ MachineLearning/data
 MachineLearning/*data
 *__pycache__
 models
+tmp
+*tmp
