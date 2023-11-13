@@ -10,3 +10,4 @@ MachineLearning/*data
 models
 tmp
 *tmp
+models/my_mnist_model
