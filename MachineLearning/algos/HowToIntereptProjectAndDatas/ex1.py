@@ -8,7 +8,7 @@ assert sys.version_info >= (3, 5)
 
 # Scikit-Learn ≥0.20 is required
 import sklearn
-from sklearn.model_selection import train_test_split,StratifiedShuffleSplit
+from sklearn.model_selection import train_test_split, StratifiedShuffleSplit
 
 assert sklearn.__version__ >= "0.20"
 
@@ -80,8 +80,6 @@ class LearningSet1:
         plt.show()
 
 
-
-
 import matplotlib.pyplot as plt
 import pandas as pd
 from scipy import stats
@@ -98,9 +96,9 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OrdinalEncoder, OneHotEncoder, StandardScaler
 
 from MachineLearning.algos.HowToIntereptProjectAndDatas.transformers import CombinedAttributesAdder
+
+
 class LearningSet2:
-
-
     def __init__(self):
         l = LearningSet1()
         house_data = l.load_housing_data()
