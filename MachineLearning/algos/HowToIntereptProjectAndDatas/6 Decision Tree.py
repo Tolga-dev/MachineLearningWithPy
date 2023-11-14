@@ -49,7 +49,7 @@ class DecisionTree:
         tree_clf.fit(X, y)
 
         # to get graph illustration of graph
-        # IMAGES_PATH = "/home/xamblot/PycharmProjects/pythonProject/datasets/iris_tree"
+        # IMAGES_PATH = "/home/xamblot/PycharmProjects/AIwithPython/datasets/iris_tree"
         #
         # export_graphviz(
         #     tree_clf,

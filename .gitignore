@@ -1,9 +1,9 @@
 venv
 .idea
 datasets
-images
-*lib
-lib
+Assets/images
+MLlib
+MLlib
 MachineLearning/data
 MachineLearning/*data
 *__pycache__

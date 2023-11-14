@@ -51,8 +51,8 @@
 
 # dueling dqn
 
-# TF agent lib
-# reinforcement learning lib, based on tensorflow
+# TF agent MLlib
+# reinforcement learning MLlib, based on tensorflow
 
 # Overview of some popular RL algorithms
 # actor critic

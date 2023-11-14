@@ -1,4 +1,4 @@
-# it is a powerful lib for numerical computations
+# it is a powerful MLlib for numerical computations
 # for large machine learning
 # it is used in image classification, natural language processing, recommender
 # system, and time series forecasting

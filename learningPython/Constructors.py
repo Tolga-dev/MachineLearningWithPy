@@ -1,4 +1,5 @@
 # to create a new instance, there are two different way
+# to create a new instance, there are two different way
 #   1 = create a new insctance of the target class
 #   2 = initialize the new instance with an appropriate initial state
 

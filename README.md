@@ -1,11 +1,12 @@
-# This repo is on work!
+# This repo is still on work!
+### Generally, I've opened it for earning money and practicing  
 ### If you want to contribute, open a branch for yourself and push!
 
 ### General ML learning
 
+
 to do list
     -   https://machinelearningmastery.com/start-here/#calculus su siteyi bitir
-    -   kitap var ne yapsak bilmiyorum onu - buyuk ihtimalle onu da bitirmem gerekecek ez
     -   https://github.com/AssemblyAI-Examples/Machine-Learning-From-Scratch/blob/main/08%20Perceptron/perceptron.py
 
 
