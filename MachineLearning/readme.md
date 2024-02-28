@@ -2,11 +2,13 @@
 
 ML is the field of study that allows the computer to learn without being explicitly programmed.
 
-
-
 ### General
 
 Concepts, inputs & Attributes
+* Categorical variables
+* Ordinal variables
+* Numerical variables
+
 
 Cost functions and gradient descent
 
