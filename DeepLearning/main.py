@@ -41,10 +41,8 @@ def CreateMyFakeData():
     start_date = datetime(2012, 1, 1)
     end_date = datetime(2021, 12, 1)
 
-    # Generate sample data
     sample_data = generate_sample_data(start_date, end_date)
 
-    # Create DataFrame
     df = pd.DataFrame(sample_data,
                       columns=["Date", "Product", "Production_Quantity", "Price_Per_Unit", "Expiration_Date",
                                "WholeSale", "Retail", "Restaurant"])
@@ -89,10 +87,12 @@ def ShowJustOneProductTotalWasteByYearBy():
     plt.ylabel('Total Wasted Quantity')
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
+    plt.legend()
+    plt.grid(True)
     plt.show()
 
 
-def PrintAllTypeWastedByYear():
+def PrintAllTypeWastedByYear(): #
     df['Date'] = pd.to_datetime(df['Date'])
 
     # Extract year from the 'Date' column
@@ -113,6 +113,8 @@ def PrintAllTypeWastedByYear():
         plt.ylabel('Total Wasted Quantity')
         plt.xticks(rotation=45, ha='right')
         plt.tight_layout()
+        plt.legend()
+        plt.grid(True)
         plt.show()
 
 
@@ -128,14 +130,16 @@ def PrintTotalWastedMoneyOnOneProduct():
 
     plt.figure(figsize=(10, 6))
     total_waste_by_year.plot(kind='line', color='skyblue')
-    plt.title('Total Wasted Money by Year')
+    plt.title('Total Wasted Money by Year On Apple Fruit')
     plt.xlabel('Year')
-    plt.ylabel('Total Wasted Quantity')
+    plt.ylabel('Total Wasted Quantity Ton/Dollar')
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
+    plt.legend()
+    plt.grid(True)
     plt.show()
 
-def PredictLastTenYear():
+def PredictLastTenYear(): ##
     df['Date'] = pd.to_datetime(df['Date'])
 
     df['Year'] = df['Date'].dt.year
@@ -163,13 +167,15 @@ def PredictLastTenYear():
 
         plt.figure(figsize=(10, 6))
         total_waste_by_year.plot(kind='line', color='skyblue')
-        plt.title('Updated Total Wasted Foods by Year')
+        plt.title('Updated Total Wasted Foods by Year ' + i)
         plt.xlabel('Year')
         plt.ylabel('Total Wasted Quantity')
         plt.xticks(rotation=45, ha='right')
         plt.tight_layout()
+        plt.legend()
+        plt.grid(True)
         plt.show()
-def PredictMoney():
+def PredictMoney(): ##
     df['Date'] = pd.to_datetime(df['Date'])
 
     df['Year'] = df['Date'].dt.year
@@ -199,14 +205,17 @@ def PredictMoney():
 
     plt.figure(figsize=(10, 6))
     total_waste_by_year.plot(kind='line', color='skyblue')
-    plt.title('Updated Total Wasted MOney by Year')
+    plt.title('Updated Total Wasted Money by Year')
     plt.xlabel('Year')
-    plt.ylabel('Total Wasted Quantity')
+    plt.ylabel('Total Wasted Quantity Ton/Dollar')
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
+    plt.legend()
+    plt.grid(True)
     plt.show()
 
 
 file_path = '/home/xamblot/PycharmProjects/AIwithPython/MachineLearning/MyTutorials/sample_data6.xlsx'
 df = pd.read_excel(file_path)
 
+ShowJustOneProductTotalWasteByYearBy()

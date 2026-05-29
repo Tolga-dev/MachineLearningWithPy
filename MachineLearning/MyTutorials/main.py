@@ -1,7 +1,7 @@
 import os
 
 
-PROJECT_ROOT_DIR = "."
+PROJECT_ROOT_DIR = ""
 IMAGES_PATH = os.path.join(PROJECT_ROOT_DIR, "MachineLearning/data")
 os.makedirs(IMAGES_PATH, exist_ok=True)
 

@@ -41,6 +41,11 @@ Tagging
 Prediction
 
 ### Tools
-Important Libraries
+
+5 farkli yemek cesidi
+
+1 aylik gunluk veri olsa
+
+bu deman miktarini olcme yapaibliriz
 
 
